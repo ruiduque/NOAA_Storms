@@ -18,10 +18,10 @@ params:
 
 
 ## Synopsis
-This project involves exploring the U.S. National Oceanic and Atmospheric Administration's (NOAA) storm database. This database tracks characteristics of major storms and weather events in the United States, including when and where they occur, as well as estimates of any fatalities, injuries, and property damage. The two key questions addressed in this project are:
-1. Which types of weather events are most harmful with respect to population health in the US and
-2. Which types of weather events have the greatest economic consequences in the US.
-The questions will be addressed through a combination of exploratory data analysis of the NOAA dataset and ensuring any analysis steps could be fully reproducible by independent researchers.
+This project involves exploring the U.S. National Oceanic and Atmospheric Administration's (NOAA) storm database. This database tracks characteristics of major storms and weather events in the United States, including when and where they occur, as well as estimates of any fatalities, injuries, and property damage. The two key questions addressed in this project are:  
+1. Which types of weather events are most harmful with respect to population health in the US and  
+2. Which types of weather events have the greatest economic consequences in the US.  
+These questions will be addressed through a combination of exploratory data analysis of the NOAA dataset and ensuring any analysis steps could be fully reproducible by independent researchers.
 
 # Data Processing
 This section contain the steps to load the NOAA dataset and prepare it for analysis. The code and associated comments illustrate the process carried out to ingest and transform the initial dataset up to the point where it is ready to support the analysis stage.
@@ -361,10 +361,10 @@ ggsave("NOAA_Analysis_files/figure-html/PropCropdmg_dollars-1.png", width=14, he
 
 # Results
 
-From the analysis carried out, one can determine that Tornados is the single most impactfull weather event in terms of both population fatalities and injuries.
+From the analysis carried out, one can determine that Tornados are the single most impactfull weather event in terms of both population fatalities and injuries.
 
-Flood tops the ranking of events creating the most economical damage on property as a result of severe weather. The most costly damage on crops comes from hail.
+Flood tops the ranking of events creating the most economical damage on property as a result of severe weather. The most costly damage on crops comes from hail storms. Note that even the most costly event on crops is below the cost of properties and therefore if these two categories are combined, the cost with crops damage would not show in the top 5 ranking.
 
-Overall, Tornados seem to be the event with most impact across all the four categories under analysis: population fatalities, population injuries, property damage and crops damage.
+Overall, Tornados seem to be the event showing on all the four categories under analysis: population fatalities, population injuries, property damage and crops damage.
 
 
